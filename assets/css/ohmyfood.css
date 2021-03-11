@@ -1,0 +1,23 @@
+.logo {
+
+display: flex;
+border-top: none;
+border-bottom: solid #F2F2F2;
+object-fit: cover;
+align-items: center;
+justify-content: center;
+text-align: center;
+
+}
+
+.topnav .search-container button {
+   
+    cursor: pointer;
+  }
+
+  .search-icon {
+    display: inline-block;
+   
+    padding: 1rem;
+    background-color: rgb(235, 233, 233);
+  }
