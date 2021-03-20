@@ -36,3 +36,11 @@ text-align: center;
   text-rendering: auto;
   line-height: 1;
 }
+
+.search-input {
+
+display : flex; 
+justify-content: center;
+background-color:#F2F2F2;
+
+}
