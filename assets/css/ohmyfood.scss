@@ -41,15 +41,8 @@ text-align: center;
 
 display : flex; 
 justify-content: center;
-background-color:#f3efef;
+background-color:#d6d6d6;
 
-}
-
-.container {
-
-  display: flex;
-  justify-content: space-between;
-  
 }
 
 .menu{
@@ -57,34 +50,33 @@ background-color:#f3efef;
   background-color: #F2F2F2; 
   padding: 2rem;
   border-radius: 1rem;
-  margin-bottom: 1em;
-  
-
-}
-
-.explorer {
-
-
   display: flex;
   justify-content: space-between;
-  align-content: center;
-  flex-direction: column;
-  flex-wrap: wrap;
-  
+
 }
 
-
+$border-rad: 2rem;
+$clr-btn: #15DEA5;
 .btn {
-
-  background-color: #9356DC;
-  border-radius: 25px;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
-  cursor: pointer;
-    
+    border-radius: $border-rad;
+    background-color: $clr-btn;
+    position: relative;
+    z-index: 1;
+    &:hover {
+        &::after {
+            opacity: 1;
+        }
     }
+    &::after {
+        content: "";
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;  
+        left: 0;
+        background-color: darken($clr-btn, 5);
+        opacity: 0;
+        z-index: -1;
+        transition: opacity 250ms;
+    }
+}
