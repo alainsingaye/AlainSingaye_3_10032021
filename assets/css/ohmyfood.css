@@ -183,9 +183,11 @@ footer {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
-  background-color: rgb(43, 42, 42);
+  background-color: rgb(95, 92, 92);
   align-content: space-between;
   list-style-type: none;
+  text-decoration: none;
+  color: white;
 }
 footer section {
   margin: 3rem;
@@ -196,12 +198,21 @@ footer section:nth-child(2) {
 }
 footer section ul {
   padding: 0;
+  text-decoration: none;
+  color: white;
+  list-style-type: none;
 }
+
 footer section li {
   list-style-type: none;
   margin-bottom: 10px;
+  text-decoration: none;
+
+  
 }
+  
 footer section li a {
   text-decoration: none;
-  color: black;
+  color: white;
+  list-style-type: none;
 }
