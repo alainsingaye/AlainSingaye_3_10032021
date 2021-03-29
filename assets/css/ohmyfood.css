@@ -182,36 +182,40 @@ object-fit: cover;
 footer {
   display: flex;
   flex-wrap: wrap;
-  flex-direction: row;
+  flex-direction: column;
   background-color: rgb(95, 92, 92);
   align-content: space-between;
-  list-style-type: none;
-  text-decoration: none;
   color: white;
+  
 }
-footer section {
-  margin: 3rem;
+
+footer h4{
+
+  margin: 1rem;
+
 }
-footer section:nth-child(2) {
-  margin-left: 10%;
-  margin-right: 10%;
-}
-footer section ul {
+
+
+
+footer  ul {
   padding: 0;
-  text-decoration: none;
+ 
   color: white;
-  list-style-type: none;
+  
+  margin: 1rem;
 }
 
-footer section li {
+footer li {
   list-style-type: none;
-  margin-bottom: 10px;
+  display:flex;
   text-decoration: none;
+  list-style-type: none;
+  color: white;
 
   
 }
   
-footer section li a {
+footer  li a {
   text-decoration: none;
   color: white;
   list-style-type: none;
