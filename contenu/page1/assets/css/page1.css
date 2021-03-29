@@ -45,7 +45,12 @@
       line-height: 1;
     }
   
-  
+  .heart {
+
+    display: flex;
+    flex-direction: flex-end;
+    
+  }
     
   .française {
     
@@ -79,6 +84,7 @@
     margin: 1rem;
     background-color: white;
     box-shadow: 0 0 14px black;
+   
     
   }
   
@@ -231,45 +237,44 @@
     
              
       
-  footer {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    background-color: rgb(95, 92, 92);
-    align-content: space-between;
-    color: white;
-    
-  }
+ footer {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  background-color: rgb(95, 92, 92);
+  align-content: space-between;
+  color: white;
   
-  footer h4{
+}
+
+footer h4{
+
+  margin: 1rem;
+
+}
+
+
+
+footer  ul {
+  padding: 0;
+ 
+  color: white;
   
-    margin: 1rem;
+  margin: 1rem;
+}
+
+footer li {
+  list-style-type: none;
+  display:flex;
+  text-decoration: none;
+  list-style-type: none;
+  color: white;
+
   
-  }
+}
   
-  
-  
-  footer  ul {
-    padding: 0;
-   
-    color: white;
-    
-    margin: 1rem;
-  }
-  
-  footer li {
-    list-style-type: none;
-    display:flex;
-    text-decoration: none;
-    list-style-type: none;
-    color: white;
-  
-    
-  }
-    
-  footer  li a {
-    text-decoration: none;
-    color: white;
-    list-style-type: none;
-  }
-  
+footer  li a {
+  text-decoration: none;
+  color: white;
+  list-style-type: none;
+}
