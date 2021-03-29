@@ -63,11 +63,17 @@
   .entrée {
     display: flex;
     justify-content: space-between;
+    flex-direction: column;
     
   }
-    
+  
+  .texte {
+    margin-left: 12px;
+  }
+
   .française article {
     display:flex;
+    flex-direction: flex-start;
     border-radius: 25px;
     border: 2px solid white;
     width: 240px;
