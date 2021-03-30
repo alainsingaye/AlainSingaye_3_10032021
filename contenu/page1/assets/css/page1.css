@@ -233,8 +233,7 @@
       .btn:hover {background-color: #611cb6}
 
       .btn:active {
-        background-color: #7e47c2;
-        box-shadow: 0 5px #9c5ce9;
+       
         transform: translateY(4px);
       }
       
