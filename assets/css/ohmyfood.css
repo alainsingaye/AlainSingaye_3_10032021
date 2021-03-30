@@ -76,19 +76,28 @@ border-radius: 1em;
 
 
 .btn {
-
-  background-color: #9356DC;
-  border-radius: 25px;
-  color: white;
   padding: 15px 32px;
   text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: white;
+  background-color: #9356DC;
+  border: none;
+  border-radius: 25px;
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
   margin: 4px 2px;
-  cursor: pointer;
-    
-    }
+  
+}
+
+.btn:hover {background-color: #611cb6}
+
+.btn:active {
+  background-color: #7e47c2;
+  box-shadow: 0 5px #9c5ce9;
+  transform: translateY(4px);
+}
 
     .box {
 
@@ -117,6 +126,14 @@ border-radius: 1em;
         
         }
 
+.btn2:hover {background-color: #b6b5b5 }
+
+.btn2:active {
+  background-color: #c4c4c4;
+  box-shadow: 0 5px #dfdede;
+  transform: translateY(4px);
+}
+
    
             
   
@@ -138,6 +155,15 @@ cursor: pointer;
                 
            }
 
+.btn3:hover {background-color: #b6b5b5 }
+
+.btn3:active {
+  background-color: #c4c4c4;
+  box-shadow: 0 5px #dfdede;
+  transform: translateY(4px);
+}
+
+
   .btn4 {
 
   background-color: #F2F2F2;
@@ -153,6 +179,14 @@ cursor: pointer;
   
                     
                }
+
+.btn4:hover {background-color: #b6b5b5 }
+
+.btn4:active {
+background-color: #c4c4c4;
+box-shadow: 0 5px #dfdede;
+transform: translateY(4px);
+}
 
 .container2 {
 display: flex;
