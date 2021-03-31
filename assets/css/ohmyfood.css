@@ -199,6 +199,11 @@ display: flex;
 flex-wrap: wrap;
               }
 
+.texte .far {
+
+  display :flex;
+  justify-content: flex-end;
+}
 
 .restos article {
 border-radius: 25px;
@@ -209,6 +214,10 @@ background-color: white;
 box-shadow: 0 0 14px black;
 }
 
+h3{
+
+  margin-bottom: -20px;
+}
 
               
 article img {
@@ -251,6 +260,7 @@ footer li {
   text-decoration: none;
   list-style-type: none;
   color: white;
+  
 
   
 }
