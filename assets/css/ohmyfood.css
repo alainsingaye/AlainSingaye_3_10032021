@@ -88,7 +88,7 @@ border-radius: 1em;
   cursor: pointer;
   outline: none;
   color: white;
-  background-color: #9356DC;
+  background-color: FF79DA;
   border: none;
   border-radius: 25px;
   text-decoration: none;
@@ -256,7 +256,6 @@ footer  ul {
 
 footer li {
   list-style-type: none;
-  display:flex;
   text-decoration: none;
   list-style-type: none;
   color: white;
