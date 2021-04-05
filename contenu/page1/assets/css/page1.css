@@ -50,6 +50,11 @@ body {
   
     }
 
+    p {
+     
+      padding : 0;
+      line-height : 0px;
+  }
 
 .heart  {
 
@@ -228,46 +233,46 @@ body {
 
 .orange {
 
-margin-left: 10rem;
+margin-left: 9.6rem;
 
 }
 
 
 .carotte{
 
-  margin-left: 6rem;
+  margin-left: 5.7rem;
 
 }
 
 
 .oignon{
 
-  margin-left: 15rem;
+  margin-left: 14.5rem;
 
 }
 
 .puree {
 
-  margin-left: 1.5rem;
+  margin-left: 0.9rem;
 
 }
 
 
 .terres{
 
-margin-left: 3rem;
+margin-left: 2.2rem;
 
 }
 
 .legumes{
 
-margin-left: 2.5rem;
+margin-left: 2rem;
 
 }
 
 .noisettes {
 
-  margin-left: 9.5rem;
+  margin-left: 8.9rem;
 
 
 
@@ -275,14 +280,14 @@ margin-left: 2.5rem;
 
 .chocolat{
 
-  margin-left: 16rem;
+  margin-left: 15.2rem;
 
 
 }
 
 .amande{
 
-  margin-left: 7rem;
+  margin-left: 6.3rem;
 
 }
 
