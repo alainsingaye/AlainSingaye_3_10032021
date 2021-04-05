@@ -121,22 +121,23 @@ body {
 
   .entrée h3{
 
-    border-bottom: 1px solid;
+    border-bottom:  solid;
     border-color: #99E2D0;
+   
    
     
   }
 
   .plats h3{
 
-    border-bottom: 1px solid;
+    border-bottom: solid;
     border-color: #99E2D0;
     
   }
 
   .desserts h3{
 
-    border-bottom: 1px solid;
+    border-bottom: solid;
     border-color: #99E2D0;
     
   }
@@ -163,7 +164,7 @@ body {
 
 
 
-  }
+  
   
   .entrée {
      
@@ -345,6 +346,8 @@ margin-left: 2rem;
   margin-left: 6.3rem;
 
 }
+
+
 
   .btn {
 
