@@ -53,7 +53,6 @@ text-align: center;
 display : flex; 
 justify-content: center;
 background-color:#eeebeb;
-
 padding: 20px;
 margin: 1px;
 
@@ -67,7 +66,7 @@ object-fit: cover;
 
   display: flex;
   justify-content: space-between;
-  
+  margin-top: -0.8rem;
 }
 
 .menu{
