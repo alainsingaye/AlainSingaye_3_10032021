@@ -47,11 +47,16 @@ body {
       font-variant: normal;
       text-rendering: auto;
       line-height: 1;
-      margin-left: 1rem;
-    
+  
     }
-  
-  
+
+
+.heart  {
+
+   margin-left: 11rem;
+   margin-top: 1rem;
+    
+  }
     
   .française {
     
@@ -75,7 +80,7 @@ body {
   
   
   }
-  
+
   .entrée {
     display: flex;
     justify-content: space-between;
@@ -278,17 +283,13 @@ footer h4{
 
 footer  ul {
   padding: 0;
- 
   color: white;
-  
   margin: 1rem;
 }
 
 footer li {
   list-style-type: none;
-  
   text-decoration: none;
-  list-style-type: none;
   color: white;
 
   
