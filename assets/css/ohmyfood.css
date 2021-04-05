@@ -2,13 +2,17 @@
 
 display: flex;
 border-top: none;
-border-bottom: solid #F2F2F2;
+border-bottom: solid #cccaca;
 object-fit: cover;
 align-items: center;
 justify-content: center;
 text-align: center;
 
+}
 
+.logo img {
+
+  width: 50%;
 }
 
 .texte h3, h4 ,p , span {
@@ -48,8 +52,14 @@ text-align: center;
 
 display : flex; 
 justify-content: center;
-background-color:#f3efef;
-border-radius: 1em;
+background-color:#e0dddd;
+
+padding: 20px;
+margin: 1px;
+
+object-fit: cover;
+
+   
 
 }
 
