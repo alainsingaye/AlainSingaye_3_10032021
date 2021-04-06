@@ -15,6 +15,12 @@
   color: black;
 }
 
+.restaurant {
+
+  margin-top: -1rem;
+  
+}
+
 .logo{
 
   display: flex;
@@ -102,7 +108,7 @@ body {
     border-top-right-radius: 3rem;
     z-index: 1;
     position: relative;
-    margin-top: -3rem;
+    margin-top: -2rem;
     box-sizing: border-box;
   }
 

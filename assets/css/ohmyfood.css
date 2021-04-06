@@ -141,7 +141,7 @@ object-fit: cover;
         
         }
 
-.btn2:hover {background-color: #b6b5b5 }
+.btn2:hover {background-color: #dec9f8 }
 
 .btn2:active {
   background-color: #c4c4c4;
@@ -170,7 +170,7 @@ cursor: pointer;
                 
            }
 
-.btn3:hover {background-color: #b6b5b5 }
+.btn3:hover {background-color: #dec9f8  }
 
 .btn3:active {
   background-color: #c4c4c4;
@@ -195,7 +195,7 @@ cursor: pointer;
                     
                }
 
-.btn4:hover {background-color: #b6b5b5 }
+.btn4:hover {background-color: #dec9f8  }
 
 .btn4:active {
 background-color: #c4c4c4;
@@ -213,6 +213,14 @@ flex-wrap: wrap;
   display :flex;
   justify-content: flex-end;
 }
+
+.heart  {
+
+  margin-right: 1.5rem;
+  
+  
+   
+ }
 
 .restos article {
 border-radius: 25px;
