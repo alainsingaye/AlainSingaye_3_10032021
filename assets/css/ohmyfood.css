@@ -218,13 +218,15 @@ background-color: white;
 box-shadow: 0 0 14px black;
 }
 
-.price {
+
+
+.entrée {
 
   display: flex;
-  justify-content: space-between;
- 
- 
+  flex-wrap: wrap;
+  
 }
+
 
 h3{
 
