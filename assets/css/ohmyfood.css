@@ -218,6 +218,14 @@ background-color: white;
 box-shadow: 0 0 14px black;
 }
 
+.price {
+
+  display: flex;
+  justify-content: space-between;
+ 
+ 
+}
+
 h3{
 
   margin-bottom: -20px;
@@ -399,10 +407,10 @@ body {
   }
 
 
-  .texte {
+  /*.texte {
     margin-left: 12px;
   }
-
+*/
   .lesmenus article {
     display:flex;
     flex-direction: flex-start;
@@ -543,6 +551,7 @@ from { opacity: 0; }
 to   { opacity: 1; }
 }
 
+/*
 .orange {
 
 margin-left: 9.6rem;
@@ -602,7 +611,7 @@ margin-left: 15.2rem;
 margin-left: 6.3rem;
 
 }
-
+*/
 
 
 .btn {
