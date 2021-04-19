@@ -220,13 +220,6 @@ box-shadow: 0 0 14px black;
 
 
 
-.entrée {
-
-  display: flex;
-  flex-wrap: wrap;
-  
-}
-
 
 h3{
 
@@ -385,7 +378,7 @@ body {
 
   
 
-  .entrée h3{
+  .h3{
 
     border-bottom:  solid;
     border-color: #99E2D0;
