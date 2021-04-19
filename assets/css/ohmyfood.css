@@ -378,7 +378,7 @@ body {
 
   
 
-  .h3{
+  .entrée h3{
 
     border-bottom:  solid;
     border-color: #99E2D0;
@@ -402,10 +402,10 @@ body {
   }
 
 
-  /*.texte {
+  .texte {
     margin-left: 12px;
   }
-*/
+
   .lesmenus article {
     display:flex;
     flex-direction: flex-start;
@@ -546,7 +546,6 @@ from { opacity: 0; }
 to   { opacity: 1; }
 }
 
-/*
 .orange {
 
 margin-left: 9.6rem;
@@ -606,7 +605,7 @@ margin-left: 15.2rem;
 margin-left: 6.3rem;
 
 }
-*/
+
 
 
 .btn {
