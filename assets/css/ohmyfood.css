@@ -331,8 +331,28 @@ body {
   margin : 0;
 
 }
+
+.repas {
+
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+}
    
+.select{
+
+  display:none;
+}
+
+   article:hover .select {
+
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background-color: lightgreen;
+    padding: 1rem;
     
+   } 
     article img {
       width: 100%;
       height: 160px;
@@ -376,9 +396,19 @@ body {
   
   }
 
-  
+  .text{
 
-  .entrée h3{
+    display: flex;
+    justify-content: space-between;
+
+    
+  
+  }
+
+ 
+
+
+  .entree h3{
 
     border-bottom:  solid;
     border-color: #99E2D0;
@@ -407,8 +437,7 @@ body {
   }
 
   .lesmenus article {
-    display:flex;
-    flex-direction: flex-start;
+   
     border-radius: 25px;
     border: 2px solid white;
     width: 350px;
@@ -425,7 +454,7 @@ body {
 
   
   
-  .entrée {
+  .entree {
      
   
     -webkit-animation: fadein 6s; /* Safari, Chrome and Opera > 12.1 */
@@ -437,7 +466,7 @@ body {
 
 }
 
-.entrée2 {
+.entree2 {
 
 -webkit-animation: fadein 7s; /* Safari, Chrome and Opera > 12.1 */
    -moz-animation: fadein 7s; /* Firefox < 16 */
@@ -450,7 +479,7 @@ body {
 
 }
 
-.entrée3 {
+.entree3 {
 
 -webkit-animation: fadein 8s; /* Safari, Chrome and Opera > 12.1 */
    -moz-animation: fadein 8s; /* Firefox < 16 */
