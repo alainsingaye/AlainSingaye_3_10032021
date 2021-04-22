@@ -338,14 +338,14 @@ body {
   justify-content: space-between;
   
 }
+
+
    
 .select{
 
   display:none;
   color: white;
-  
-  
-  
+
   
 }
 
@@ -356,8 +356,6 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-
-  overflow: hidden;
   transition-duration: 0.8s;
   transition-property: transform;
 
@@ -379,24 +377,37 @@ body {
     justify-content: center;
     align-content: center;
     background-color: #99E2D0;
-    border-radius: 1px 15px 15px 1px;
+    border-radius: 10px 20px 20px 10px;
     padding: 1rem;
     animation-direction: reverse;
     animation-duration: 1s;
     animation-name: glissement;
+      width: 55px;
+      opacity: 1;
+      animation: tt-expand 1s ease;
+    }
     
-    
-   } 
+   
 
    @keyframes glissement {
     from {
-      margin-right: 10%;
+      margin-right: 5%;
       
     }
   
     to {
       margin-left: 0%;
       
+    }
+  }
+  @keyframes tt-expand {
+    0% {
+      width: 0;
+      right: 65px;
+    }
+    100% {
+      width: 55px;
+      right: 10px;
     }
   }
 
