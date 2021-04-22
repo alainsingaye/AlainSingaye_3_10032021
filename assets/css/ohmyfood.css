@@ -336,8 +336,12 @@ body {
 
   display: flex;
   justify-content: space-between;
+  align-content: space-between;
   
 }
+
+
+
 
 
    
@@ -455,7 +459,7 @@ body {
   
   }
 
-  .text{
+  /*.text{
 
     display: flex;
     justify-content: space-between;
@@ -464,7 +468,8 @@ body {
   
   }
 
- 
+ */
+
 
 
   .entree h3{
