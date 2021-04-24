@@ -338,6 +338,7 @@ body {
   justify-content: space-between;
   align-items: space-between;
   
+  
 }
 
 
@@ -463,10 +464,13 @@ body {
 
     display: flex;
     justify-content: space-between;
+    flex-wrap:wrap;
+    
 
     
   
   }
+
 
  
 
@@ -732,6 +736,7 @@ cursor: pointer;
 
 display: flex;
 justify-content: center;
+align-items: center;
 }
 
          
@@ -745,6 +750,8 @@ align-content: space-between;
 color: white;
 
 }
+
+
 
 footer h4{
 
