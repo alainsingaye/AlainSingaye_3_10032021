@@ -1,3 +1,14 @@
+body {
+
+  font-family: Roboto, sans-serif;
+    font-size: 0.875rem;
+    line-height: 1.5;
+    
+
+}
+
+
+
 .logo {
 
 display: flex;
@@ -506,6 +517,8 @@ body {
     width: inherit;
   }
 
+  
+
   .text{
 
     display: flex;
@@ -552,7 +565,7 @@ body {
   .lesmenus article {
    
     border-radius: 25px;
-    width: 280px;
+    width: 380px;
     margin: 1rem 0;
     background-color: white;
     box-shadow: 0 0 14px black;
@@ -573,7 +586,15 @@ body {
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
-  max-width: 218px;
+  margin: 10px;
+  padding: 5px;
+
+ }
+
+ .lesmenus h4 {
+
+  margin: 10px;
+  padding: 5px;
 
 
  }
