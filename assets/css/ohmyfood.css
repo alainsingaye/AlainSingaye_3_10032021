@@ -89,7 +89,15 @@ object-fit: cover;
   
 }
 
-
+.img-btn-left {
+  position: absolute;
+  right:4rem;
+  background: #99e2d0;
+  color: #2c9c81;
+  padding: 3px 10px;
+  font-weight: bold;
+  z-index: 999;
+}
 
 
 .aside_title {
