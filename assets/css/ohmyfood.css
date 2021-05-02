@@ -873,3 +873,26 @@ color: white;
 list-style-type: none;
 }
 
+@media screen and (min-width: 375px)
+
+{
+
+.lesmenus article {
+
+  width: 350px;
+  
+}
+
+
+}
+
+@media screen and (min-width: 320px)
+
+{
+
+  .lesmenus article {
+
+    width: 300px;
+  }
+
+}
