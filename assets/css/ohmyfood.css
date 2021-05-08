@@ -91,7 +91,8 @@ object-fit: cover;
 
 .img-btn-left {
   position: absolute;
-  right:4rem;
+  top:1rem;
+  right:1rem;
   background: #99e2d0;
   color: #2c9c81;
   padding: 3px 10px;
@@ -262,11 +263,6 @@ display: flex;
 flex-wrap: wrap;
               }
 
-.texte .far {
-
-  display :flex;
-  justify-content: flex-end;
-}
 
 .title-page  {
 
@@ -422,7 +418,7 @@ body {
 
 
 
-.select i.fas{
+.select i{
 
   display: flex;
   justify-content: center;
@@ -433,7 +429,7 @@ body {
 }
 
 
-.select i.fas:hover {
+.select i:hover {
 
   transform: rotate(360deg);
   -webkit-transform: rotate(360deg);
@@ -442,6 +438,11 @@ body {
 
 }
 
+
+.image{
+
+  position: relative;
+}
    article:hover .select {
 
     display: flex;
@@ -495,8 +496,20 @@ body {
       }
     
     
+.heart {
 
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+}
     
+.heart i {
+
+  color: #d1caca;
+ 
+
+
+}
 .heart:hover {
 
   background: linear-gradient(#ff79da, #9356dc);
@@ -580,7 +593,9 @@ body {
 
 
   .texte {
-    margin-left: 12px;
+    padding: 0 12px;
+    display: flex;
+    justify-content: space-between;
   }
 
   .lesmenus article {
