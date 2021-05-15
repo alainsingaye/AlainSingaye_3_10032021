@@ -172,6 +172,19 @@ object-fit: cover;
   margin-top: -0.8rem;
 }
 
+h1 {
+  font-family: "Roboto", sans-serif;
+  font-size: 25px;
+  font-weight: bold;
+}
+.reserver h1 {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+
+  margin-bottom: 35px;
+}
+
 .menu{
 
   background-color: #F2F2F2; 
