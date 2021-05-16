@@ -388,6 +388,10 @@ flex-wrap: wrap;
   justify-content: space-between;
   align-content: center;
   width: 100%;
+  font-family: "Roboto";
+  font-weight: bold;
+  
+    
    
  }
 
