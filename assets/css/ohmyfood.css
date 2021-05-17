@@ -1108,11 +1108,52 @@ list-style-type: none;
 
   }
 
-  .aside {
 
-display: flex;
-flex-direction: row;
 
+  .btn2 {
+
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .btn3 {
+
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .btn4 {
+
+    display: flex;
+    justify-content: space-between;
+  }
+
+.aside_step {
+
+  display: flex;
+  flex-direction: row;
+  margin-top: 50px;
+}
+
+
+
+.aside_circle {
+
+  position: relative;
+  left: -40px;
+}
+
+  .aside_icons {
+
+margin : 0;
+
+
+  }
+
+  .restos {
+
+    display: flex;
+    flex-wrap: wrap;
   }
 
 }
