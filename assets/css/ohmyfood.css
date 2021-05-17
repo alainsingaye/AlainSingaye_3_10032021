@@ -1101,12 +1101,14 @@ list-style-type: none;
     background: transparent;
   }
 
-  .header .logo {
+  .nav .logo{
 
     text-align: left;
     box-shadow: none;
 
   }
+
+  
 
 
 
@@ -1155,5 +1157,15 @@ margin : 0;
     display: flex;
     flex-wrap: wrap;
   }
+
+  footer {
+
+    padding-left: 26rem;
+  }
+
+ .footer ul {
+
+  text-align: center;
+ }
 
 }
