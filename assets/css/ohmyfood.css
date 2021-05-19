@@ -1079,7 +1079,7 @@ list-style-type: none;
 
 }
 
-@media screen and (min-width: 500px) 
+@media screen and (min-width: 598px) 
 
 {
   .header {
@@ -1159,7 +1159,7 @@ margin : 0;
 
 
 
-@media screen and (min-width: 600px) 
+@media screen and (min-width: 670px) 
 
 {
   .header {
@@ -1227,10 +1227,7 @@ margin : 0;
     flex-wrap: wrap;
   }
 
-  footer {
-
-    padding-left: 26rem;
-  }
+  f
 
  .footer ul {
 
@@ -1326,10 +1323,7 @@ margin : 0;
     flex-wrap: wrap;
   }
 
-  footer {
-
-    padding-left: 26rem;
-  }
+  
 
  .footer ul {
 
