@@ -724,9 +724,12 @@ body {
 
  
 
- 
+ section {
 
-  .entree h3{
+  margin: auto 0.5rem;
+ }
+
+  section h2{
 
     border-bottom:  solid;
     border-color: #99E2D0;
@@ -735,20 +738,7 @@ body {
     
   }
 
-  .plats h3{
-
-    border-bottom: solid;
-    border-color: #99E2D0;
-    display: inline-block;
-  }
-
-  .desserts h3{
-
-    border-bottom: solid;
-    border-color: #99E2D0;
-    display: inline-block;
-  }
-
+  
   
 
   .texte {
@@ -1018,6 +1008,7 @@ cursor: pointer;
 display: flex;
 justify-content: center;
 align-items: center;
+width: 100%;
 }
 
          
@@ -1156,10 +1147,7 @@ margin : 0;
     flex-wrap: wrap;
   }
 
-  footer {
-
-    padding-left: 26rem;
-  }
+  
 
  .footer ul {
 
@@ -1167,6 +1155,9 @@ margin : 0;
  }
 
 }
+
+
+
 
 @media screen and (min-width: 600px) 
 
@@ -1272,7 +1263,20 @@ margin : 0;
 
   }
 
-  
+  @media screen and (max-width: 768px) 
+
+  {
+
+    section {
+
+      width:100%;
+    }
+
+    .lesmenus article {
+
+      margin: 1rem auto;
+    }
+  }
 
 
 
