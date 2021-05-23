@@ -1021,9 +1021,14 @@ list-style-type: none;
 
 .footer-logo img{
 
-  width:50%;
+  width:60%;
+  margin-left: 15px;
 
   
+}
+
+.footer-icons {
+  margin-right: 10px;
 }
 
 /************************* Media Query ****************************/
