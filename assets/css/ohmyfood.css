@@ -604,10 +604,17 @@ section {
  }
 
 section h2{
-  border-bottom:  solid;
-  border-color: #99E2D0;
-  display: inline-block;
+ 
   font-weight: normal;
+}
+
+section h2:after {
+
+  content: "";
+  height: 4px;
+  width: 22%;
+  background:#99E2D0;
+  display: block;
 }
 
 .texte {
@@ -620,11 +627,11 @@ section h2{
 .lesmenus article {
   display: flex;
   justify-content: space-between;
-  border-radius: 25px;
-  width: 380px;
+  border-radius: 20px;
+  width: 100%;
   margin: 1rem 0;
   background-color: white;
-  box-shadow: 0 0 14px black;
+  box-shadow: 0 0 14px #c3c3c3;
 }
 
 article:hover p{
@@ -907,7 +914,7 @@ footer  li a {
 
 }
 
-@media screen and (min-width: 320px)
+@media screen and (max-width: 320px)
 {
   .lesmenus article {
     width: 300px;
@@ -1028,39 +1035,24 @@ margin : 0;
 .footer ul {
   text-align: center;
  }
-}
 
-@media screen and (min-width: 700px) 
 
-{
-  .header {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    background: transparent;
-  }
-
-  .logo{
-
-    text-align: right;
-    box-shadow: none;
-    background: white;
-    width: 50%;
-    text-align: center;
-    border-bottom: 2px solid #f4f4f4;
-    padding-left: 260px;
-
-  }
 
   @media screen and (max-width: 768px) 
 
   {
+
+  .lesmnus {
+
+    flex-direction: column;
+  }
     section {
       width:100%;
     }
 
     .lesmenus article {
+
+      max-width: 100%;
 
       margin: 1rem auto;
     }
