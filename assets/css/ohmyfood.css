@@ -112,21 +112,16 @@
 }
 
 .logo {
-
+  width: 100%;
   display: flex;
-  border-top: none;
-  border-bottom: solid #cccaca;
   object-fit: cover;
   align-items: center;
   justify-content: center;
   text-align: center;
-
+  border-bottom: 2px solid #f4f4f4;
+  border-top: none;
 }
 
-.logo img {
-
-  width: 50%;
-}
 
 figure.photo {
 
@@ -228,6 +223,7 @@ figure.photo {
   display: flex;
   flex-direction: column;
   margin-top: 20px;
+  
 }
 
 
@@ -258,6 +254,7 @@ figure.photo {
 .btn2:hover .aside_icons {
 
   color: #9356dc;
+  position: relative;
 
 
 }
@@ -367,7 +364,7 @@ figure.photo {
 .restos article {
   border-radius: 25px;
   max-width: 340px;
-  margin: 1rem;
+  margin: 1rem auto;
   background-color: white;
   box-shadow: 0 10px 14px rgb(226, 225, 225);
 }
@@ -444,20 +441,6 @@ footer li a {
 .logo a {
   position: absolute;
   left: 0.5rem;
-}
-
-
-.logo {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-decoration: none;
-  color: black;
-  width: 100%;
-}
-
-.logo img {
-  width: 70%;
 }
 
 body {
@@ -980,6 +963,11 @@ footer li a {
 /************************* Media Query ****************************/
 @media screen and (max-width: 768px) {
 
+  .logo img {
+
+  width: 70%;
+  }
+
   .lesmenus {
 
     flex-direction: column;
@@ -1004,12 +992,6 @@ footer li a {
     align-items: center;
     justify-content: space-between;
     background: transparent;
-  }
-
-  .nav .logo {
-    text-align: left;
-    box-shadow: none;
-
   }
 
   .btn2 {
@@ -1105,17 +1087,7 @@ footer li a {
     background: transparent;
   }
 
-  .logo {
-
-    text-align: right;
-    box-shadow: none;
-    background: white;
-    width: 50%;
-    text-align: center;
-    border-bottom: 2px solid #f4f4f4;
-    padding-left: 260px;
-
-  }
+ 
 
   .btn2 {
     display: flex;
@@ -1158,6 +1130,7 @@ footer li a {
 
     display: flex;
     flex-wrap: wrap;
+    
   }
 
   footer {
@@ -1179,17 +1152,6 @@ footer li a {
     align-items: center;
     justify-content: space-between;
     background: transparent;
-  }
-
-  .logo {
-    text-align: right;
-    box-shadow: none;
-    background: white;
-    width: 50%;
-    text-align: center;
-    border-bottom: 2px solid #f4f4f4;
-    padding-left: 260px;
-
   }
 
   .btn2 {
@@ -1260,16 +1222,7 @@ footer li a {
     background: transparent;
   }
 
-  .logo {
-    text-align: right;
-    box-shadow: none;
-    background: white;
-    width: 50%;
-    text-align: center;
-    border-bottom: 2px solid #f4f4f4;
-    padding-left: 260px;
 
-  }
 
   .btn2 {
 
@@ -1338,16 +1291,7 @@ footer li a {
     background: transparent;
   }
 
-  .logo {
-    text-align: right;
-    box-shadow: none;
-    background: white;
-    width: 50%;
-    text-align: center;
-    border-bottom: 2px solid #f4f4f4;
-    padding-left: 260px;
 
-  }
 
 
   .btn2 {
