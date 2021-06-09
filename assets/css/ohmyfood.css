@@ -223,7 +223,7 @@ figure.photo {
   display: flex;
   flex-direction: column;
   margin-top: 20px;
-  
+
 }
 
 
@@ -254,7 +254,7 @@ figure.photo {
 .btn2:hover .aside_icons {
 
   color: #9356dc;
-  position: relative;
+
 
 
 }
@@ -965,7 +965,7 @@ footer li a {
 
   .logo img {
 
-  width: 70%;
+    width: 70%;
   }
 
   .lesmenus {
@@ -1087,7 +1087,7 @@ footer li a {
     background: transparent;
   }
 
- 
+
 
   .btn2 {
     display: flex;
@@ -1130,7 +1130,7 @@ footer li a {
 
     display: flex;
     flex-wrap: wrap;
-    
+
   }
 
   footer {
