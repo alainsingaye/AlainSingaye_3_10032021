@@ -556,7 +556,7 @@ article img {
 .heart i {
   position: absolute;
   right: 0;
-  transition: .5s;
+  transition: 1s;
 }
 
 .heart {
