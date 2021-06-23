@@ -159,11 +159,12 @@ figure.photo {
 
 }
 
-.explorer{
+.explorer {
 
   text-align: center;
 }
-.reserver .h1{
+
+.reserver .h1 {
   display: flex;
   text-align: center;
   justify-content: center;
@@ -455,38 +456,41 @@ body {
   justify-content: center;
   align-items: center;
   -webkit-animation: rotate-center 0.6s ease-in-out both;
-	        animation: rotate-center 0.6s ease-in-out both;
+  animation: rotate-center 0.6s ease-in-out both;
 
 }
 
 .select i:hover {
-  
- transition-duration: 1s;
- transition-timing-function: ease;
- -webkit-animation: rotate-center 0.6s ease-in-out both;
-	        animation: rotate-center 0.6s ease-in-out both;
- 
-  
+
+  transition-duration: 1s;
+  transition-timing-function: ease;
+  -webkit-animation: rotate-center 0.6s ease-in-out both;
+  animation: rotate-center 0.6s ease-in-out both;
+
+
 }
 
 @-webkit-keyframes select {
   0% {
     -webkit-transform: rotate(0);
-            transform: rotate(0);
+    transform: rotate(0);
   }
+
   100% {
     -webkit-transform: rotate(360deg);
-            transform: rotate(360deg);
+    transform: rotate(360deg);
   }
 }
+
 @keyframes rotate-center {
   0% {
     -webkit-transform: rotate(0);
-            transform: rotate(0);
+    transform: rotate(0);
   }
+
   100% {
     -webkit-transform: rotate(360deg);
-            transform: rotate(360deg);
+    transform: rotate(360deg);
   }
 }
 
@@ -550,29 +554,28 @@ article img {
 }
 
 .heart i {
-  color: rgb(73, 73, 73);
+  position: absolute;
+  right: 0;
+  transition: .5s;
 }
 
-.heart .fas.fa-heart {
-  display: none;
+.heart {
+  position: relative;
 }
 
-.heart:hover {
+
+.heart .fas {
+  opacity: 0;
   background: linear-gradient(#ff79da, #9356dc);
-  -webkit-text-fill-color: transparent;
+  background-clip: text;
   -webkit-background-clip: text;
+  color: transparent;
+}
+
+
+
+.heart:hover .fas {
   opacity: 1;
-  z-index: 999;
-  transition: 3s ease;
-  
-}
-
-.heart:hover .far.fa-heart {
-  display: none;
-}
-
-.heart:hover .fas.fa-heart {
-  display: initial;
 }
 
 
@@ -1360,4 +1363,3 @@ footer li a {
   }
 
 }
-
