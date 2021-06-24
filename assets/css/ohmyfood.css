@@ -553,10 +553,10 @@ article img {
   justify-content: center;
 }
 
-.heart i {
+.heart .far {
   position: absolute;
   right: 0;
-  transition: 1s;
+  
 }
 
 .heart {
@@ -570,6 +570,7 @@ article img {
   background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
+  transition: 0.5s;
 }
 
 
