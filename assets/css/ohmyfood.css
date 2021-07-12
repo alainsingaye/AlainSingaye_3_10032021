@@ -352,8 +352,6 @@ figure.photo {
 }
 
 
-
-
 .restos article {
   border-radius: 25px;
   max-width: 340px;
@@ -556,7 +554,7 @@ article img {
 .heart i {
   position: absolute;
   right: 0;
-
+  
 }
 
 .heart {
@@ -569,13 +567,18 @@ article img {
   background: linear-gradient(#ff79da, #9356dc);
   -webkit-background-clip: text;
   color: transparent;
-  transition: 0.5s;
+  transition: 1s;
+  
+  
+  
+
 }
 
 
 
 .heart:hover .fas {
   opacity: 1;
+  
 }
 
 
