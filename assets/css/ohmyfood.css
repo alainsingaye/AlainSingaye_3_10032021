@@ -1,6 +1,6 @@
 @keyframes spinloader {
   100% {
-    opacity: 0;
+    opacity: 1;
     z-index: -10;
   }
 }
@@ -148,12 +148,12 @@ figure.photo {
   color: #000;
   font-weight: bold;
   font-size: 1.1rem;
-  font-family: "Roboto", sans-serif;
+  
 }
 
 .menu-titre {
 
-  font-family: "Roboto", sans-serif;
+  
   font-size: 20px;
 
 
@@ -168,7 +168,7 @@ figure.photo {
   display: flex;
   text-align: center;
   justify-content: center;
-  font-family: "Roboto", sans-serif;
+  
   font-weight: bold;
   margin-bottom: 35px;
 }
@@ -321,10 +321,6 @@ figure.photo {
 
 
 
-.container2 {
-  display: flex;
-  flex-wrap: wrap;
-}
 
 
 .title-page {
@@ -345,7 +341,7 @@ figure.photo {
 
 .menu-title {
 
-  font-family: "Roboto", sans-serif;
+  
   font-weight: normal;
   font-size: 20px;
 
@@ -436,6 +432,7 @@ footer li a {
 
 body {
   margin: 0;
+  font-family: 'Roboto', sans-serif;
 }
 
 .repas {
@@ -597,10 +594,7 @@ article img {
   box-sizing: border-box;
 }
 
-p,
-span {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-}
+
 
 .description {
   flex-grow: 1;
@@ -687,6 +681,7 @@ article:hover p {
 
 
 }
+
 
 .enchantee {
 
