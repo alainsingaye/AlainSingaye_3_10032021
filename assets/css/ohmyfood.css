@@ -1,3 +1,10 @@
+
+
+main {
+  padding: 0 1rem;
+}
+
+
 @keyframes spinloader {
   100% {
     opacity: 0;
@@ -12,6 +19,9 @@
     transform: rotate(-360deg);
   }
 }
+
+
+
 .menu__text {
   display: flex;
   justify-content: space-between;
@@ -102,6 +112,7 @@ figure.photo {
   padding: 2rem;
   border-radius: 1rem;
   margin-bottom: 1em;
+  font-weight: bold;
 
 
 }
@@ -145,7 +156,7 @@ figure.photo {
 
 .aside_circle {
   position: absolute;
-  left: -4px;
+  left: 10px;
   margin-top: -7px;
   background: #9356dc;
   border-radius: 100%;
@@ -219,7 +230,7 @@ figure.photo {
   background-color: #F2F2F2;
   border-radius: 25px;
   color: black;
-  padding: 15px 32px;
+  padding: 15px 20px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
@@ -270,12 +281,14 @@ figure.photo {
 }
 
 
+
 .restos article {
   border-radius: 25px;
   max-width: 340px;
   margin: 1rem auto;
   background-color: white;
   box-shadow: 0 10px 14px rgb(226, 225, 225);
+ 
 }
 
 h3 {
@@ -1147,7 +1160,6 @@ footer li a {
 
     margin: 0;
 
-
   }
 
   .restos {
@@ -1315,12 +1327,13 @@ footer li a {
     background: transparent;
   }
 
-
+ 
 
 
   .btn2 {
     display: flex;
     justify-content: space-between;
+    
   }
 
   .btn3 {
@@ -1355,6 +1368,7 @@ footer li a {
   .restos {
     display: flex;
     flex-wrap: wrap;
+
   }
 
   footer {
