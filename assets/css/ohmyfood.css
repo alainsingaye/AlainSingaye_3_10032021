@@ -4,6 +4,10 @@ main {
   padding: 0 1rem;
 }
 
+p {
+
+  font-family: 'Roboto', sans-serif;
+}
 
 @keyframes spinloader {
   100% {
@@ -87,7 +91,8 @@ figure.photo {
 .menu-titre {
 
   
-  font-size: 20px;
+  font-size: 19px;
+  font-family: 'Roboto', sans-serif;
 
 
 }
@@ -101,7 +106,6 @@ figure.photo {
   display: flex;
   text-align: center;
   justify-content: center;
-  
   font-weight: bold;
   margin-bottom: 35px;
 }
@@ -230,7 +234,7 @@ figure.photo {
   background-color: #F2F2F2;
   border-radius: 25px;
   color: black;
-  padding: 15px 20px;
+  padding: 15px 15px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
@@ -308,7 +312,7 @@ footer {
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
-  background-color: rgb(95, 92, 92);
+  background-color: rgb(22, 22, 22);
   align-content: space-between;
   color: white;
 }
@@ -450,7 +454,7 @@ footer li a {
 
 body {
   margin: 0;
-  font-family: 'Roboto', sans-serif;
+  
 }
 
 .repas {
@@ -634,6 +638,7 @@ section {
 section h2 {
 
   font-weight: normal;
+  
 }
 
 section h2:after {
