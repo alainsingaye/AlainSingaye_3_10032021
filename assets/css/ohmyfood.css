@@ -132,6 +132,8 @@ figure.photo {
 
 }
 
+
+
 .img-btn-left {
   position: absolute;
   top: 1rem;
@@ -513,7 +515,9 @@ body {
 
 .image {
   position: relative;
+  
 }
+
 
 article:hover .select {
   display: flex;
