@@ -4,7 +4,7 @@ main {
 
 p {
 
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto';
 }
 
 @keyframes spinloader {
@@ -95,7 +95,7 @@ figure.photo {
 
 
   font-size: 19px;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto';
 
 
 }
