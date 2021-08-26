@@ -222,6 +222,10 @@ figure.photo {
   background-color: #FF79DA
 }
 
+btn.pointer {
+  cursor: pointer;
+}
+
 .btn:active {
   transform: translateY(4px);
 }
@@ -1010,6 +1014,11 @@ footer li a {
 /************************* Media Query ****************************/
 @media screen and (max-width: 768px) {
 
+  btn.pointer {
+    cursor: pointer;
+  }
+  
+
   .logo img {
 
     width: 70%;
@@ -1033,6 +1042,12 @@ footer li a {
 }
 
 @media screen and (min-width: 769px) {
+
+  btn.pointer {
+    cursor: pointer;
+  }
+  
+
   .header {
     display: flex;
     flex-direction: row;
@@ -1126,6 +1141,11 @@ footer li a {
 
 
 @media screen and (min-width:800px) {
+
+  btn.pointer {
+  cursor: pointer;
+}
+
   .header {
     display: flex;
     flex-direction: row;
