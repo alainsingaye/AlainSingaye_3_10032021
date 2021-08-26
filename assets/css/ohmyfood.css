@@ -460,7 +460,7 @@ footer li a {
 }
 
 body {
-  margin: 0; 
+  margin: 0;
 }
 
 
@@ -596,10 +596,6 @@ article img {
   -webkit-background-clip: text;
   color: transparent;
   transition: 1s;
-
-
-
-
 }
 
 
