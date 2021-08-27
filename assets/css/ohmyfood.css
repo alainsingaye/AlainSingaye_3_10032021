@@ -1276,6 +1276,12 @@ footer li a {
 
 @media screen and (min-width: 1000px) {
 
+  .aside_step {
+
+    justify-content: space-between
+  }
+
+
   .lesmenus {
 
     justify-content: space-evenly;
@@ -1348,6 +1354,11 @@ footer li a {
 
   .lesmenus {
     justify-content: space-evenly;
+  }
+
+  .aside_step {
+
+    justify-content: space-between
   }
 
   .header {
