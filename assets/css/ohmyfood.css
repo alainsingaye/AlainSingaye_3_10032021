@@ -465,6 +465,7 @@ footer li a {
 
 body {
   margin: 0;
+  font-family: sans-serif;
 }
 
 
@@ -641,7 +642,7 @@ article img {
 }
 
 section {
-  margin: auto 0.5rem;
+  margin: auto auto;
 }
 
 section h2 {
@@ -1017,7 +1018,7 @@ footer li a {
   btn.pointer {
     cursor: pointer;
   }
-  
+
 
   .logo img {
 
@@ -1046,7 +1047,7 @@ footer li a {
   btn.pointer {
     cursor: pointer;
   }
-  
+
 
   .header {
     display: flex;
@@ -1143,8 +1144,8 @@ footer li a {
 @media screen and (min-width:800px) {
 
   btn.pointer {
-  cursor: pointer;
-}
+    cursor: pointer;
+  }
 
   .header {
     display: flex;
